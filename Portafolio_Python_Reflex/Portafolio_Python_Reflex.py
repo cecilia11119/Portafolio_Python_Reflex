@@ -2,14 +2,12 @@ import reflex as rx
 
 
 class State(rx.State):
-    """The app state."""
-
-    pass
+     pass
 
 
 def index() -> rx.Component:
-	return rx.text("Hola Reflex", color="blue")
-
+	return 
+    
 
 # Add state and page to the app.
 app = rx.App()

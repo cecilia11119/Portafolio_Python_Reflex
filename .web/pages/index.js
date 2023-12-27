@@ -4,7 +4,7 @@ import { Event, getAllLocalStorageItems, getRefValue, getRefValues, isTrue, prev
 import { ColorModeContext, EventLoopContext, initialEvents, StateContext } from "/utils/context.js"
 import range from "/utils/helpers/range.js"
 import "focus-visible/dist/focus-visible"
-import { Modal, ModalBody, ModalContent, ModalHeader, ModalOverlay, Text } from "@chakra-ui/react"
+import { HStack, Modal, ModalBody, ModalContent, ModalHeader, ModalOverlay, Text } from "@chakra-ui/react"
 import { getEventURL } from "/utils/state.js"
 import NextHead from "next/head"
 
@@ -63,9 +63,11 @@ export default function Component() {
   <Fragment/>
 )}
 </Fragment>
-  <Text sx={{"color": "blue"}}>
-  {`Hola Reflex`}
+  <HStack sx={{"position": "sticky", "bg": "blue", "paddingX": "16px", "paddingY": "8px"}}>
+  <Text sx={{"height": "40px"}}>
+  {`Cecilia Cardenas`}
 </Text>
+</HStack>
   <NextHead>
   <title>
   {`Reflex App`}
