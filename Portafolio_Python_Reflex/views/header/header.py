@@ -74,7 +74,7 @@ def header() -> rx.Component:
             ),
             rx.spacer(),
             info_text(
-                "100+", "aplicaciones creadas"
+                "5+", "proyectos creados"
             ),
             rx.spacer(),
             info_text(
@@ -84,7 +84,7 @@ def header() -> rx.Component:
         ),
         rx.text(
             f"""
-            Hola mi nombre es Cecilia Cardenas soy desarrolladora Full stack Jr Oracle Next Education
+            Hola mi nombre es Cecilia Cardenas soy desarrolladora Full Stack Jr Oracle Next Education
             """,
             font_size=Size.DEFAULT.value,
             color=TextColor.BODY.value
@@ -95,4 +95,4 @@ def header() -> rx.Component:
 
 
 def experience() -> int:
-    return datetime.date.today().year - 2010
+    return datetime.date.today().year - 2022

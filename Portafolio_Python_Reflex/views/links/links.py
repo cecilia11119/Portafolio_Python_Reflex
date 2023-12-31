@@ -39,45 +39,45 @@ def links() -> rx.Component:
             const.VISUAL_STUDIO_URL
         ),
 
-        title("Recursos y más"),
+        title("Recursos"),
         link_button(
-            "Git y GitHub desde cero",
-            "Aquí puedes comprar mi libro en formato físico y eBook",
+            "GitHub",
+            "Aquí puedes encontrar mis proyectos",
             "icons/git.svg",
             const.BOOK_URL
         ),
-        link_button(
-            "Libros recomendados",
-            "Mi listado de libros sobre programación, ciencia y tecnología",
-            "icons/book.svg",
-            const.BOOKS_URL
-        ),
-        link_button(
-            "Mi setup",
-            "Listado con todos los elementos que uso en mi trabajo",
-            "icons/setup.svg",
-            const.SETUP_URL
-        ),
-        link_button(
-            "MoureDev",
-            "Mi sitio web",
-            "icons/logo.png",
-            const.MOUREDEV_URL
-        ),
-        link_button(
-            "Invítame a un café",
-            "¿Quieres ayudarme a que siga creando contenido?",
-            "icons/coffee.svg",
-            const.COFFEE_URL
-        ),
+       # link_button(
+       #     "Libros recomendados",
+       #     "Mi listado de libros sobre programación, ciencia y tecnología",
+       #     "icons/book.svg",
+       #     const.BOOKS_URL
+       # ),
+       # link_button(
+       #     "Mi setup",
+       #     "Listado con todos los elementos que uso en mi trabajo",
+       #     "icons/setup.svg",
+       #     const.SETUP_URL
+       # ),
+       # link_button(
+       #     "MoureDev",
+       #     "Mi sitio web",
+       #     "icons/logo.png",
+       #     const.MOUREDEV_URL
+       # ),
+       # link_button(
+       #     "Invítame a un café",
+       #     "¿Quieres ayudarme a que siga creando contenido?",
+       #     "icons/coffee.svg",
+       #     const.COFFEE_URL
+       # ),
 
         title("Contacto"),
-        link_button(
-            "MyPublicInbox",
-            "Respuesta rápida y con preferencia",
-            "icons/checkemail.svg",
-            const.MYPUBLICINBOX_URL
-        ),
+        #link_button(
+        #    "MyPublicInbox",
+        #    "Respuesta rápida y con preferencia",
+        #    "icons/checkemail.svg",
+        #    const.MYPUBLICINBOX_URL
+        #),
         link_button(
             "Email",
             const.EMAIL,

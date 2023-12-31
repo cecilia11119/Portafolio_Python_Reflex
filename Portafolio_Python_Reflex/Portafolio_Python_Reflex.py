@@ -21,7 +21,7 @@ def index() -> rx.Component:
             rx.vstack(
                 header(),
                 links(),
-                sponsors(),
+                #sponsors(),
                 max_width=styles.MAX_WIDTH,
                 width="100%",
                 margin_y=Size.BIG.value,

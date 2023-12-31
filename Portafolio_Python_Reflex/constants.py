@@ -21,8 +21,8 @@ YOUTUBE_SECONDARY_URL = "https://youtube.com/@mouredevtv"
 DISCORD_URL = "https://discord.gg/mouredev"
 CODE_CHALLENGES_URL = "https://retosdeprogramacion.com"
 
-# Recursos y más
-BOOK_URL = "https://mouredev.com/libro-git"
+# Recursos 
+BOOK_URL = "https://github.com/cecilia11119"
 BOOKS_URL = "https://amazon.es/shop/mouredev/list/2ZIHJJFJ9AVZ3"
 SETUP_URL = "https://mouredev.com/setup"
 MOUREDEV_URL = "https://mouredev.com"
@@ -30,7 +30,7 @@ COFFEE_URL = "https://buymeacoffee.com/mouredev"
 
 # Contacto
 MYPUBLICINBOX_URL = "https://mypublicinbox.com/mouredev"
-EMAIL = "braismoure@mouredev.com"
+EMAIL = "cecilia11119@gmail.com"
 
 # Sponsors
 ELGATO_URL = "https://e.lga.to/MoureDev"

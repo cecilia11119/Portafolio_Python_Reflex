@@ -4,7 +4,7 @@ import { Event, getAllLocalStorageItems, getRefValue, getRefValues, isTrue, prev
 import { ColorModeContext, EventLoopContext, initialEvents, StateContext } from "/utils/context.js"
 import range from "/utils/helpers/range.js"
 import "focus-visible/dist/focus-visible"
-import { Avatar, Box, Button, Center, Flex, Heading, HStack, Image, Link, SimpleGrid, Spacer, Text, VStack } from "@chakra-ui/react"
+import { Avatar, Box, Button, Center, Flex, Heading, HStack, Image, Link, Spacer, Text, VStack } from "@chakra-ui/react"
 import Script from "next/script"
 import NextLink from "next/link"
 import NextHead from "next/head"
@@ -80,16 +80,16 @@ export default function Component() {
   <Flex sx={{"width": "100%"}}>
   <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   <Text as={`span`} sx={{"fontWeight": "bold", "color": "#f3b32b"}}>
-  {`13+`}
+  {`1+`}
 </Text>
   {` años de experiencia`}
 </Box>
   <Spacer/>
   <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   <Text as={`span`} sx={{"fontWeight": "bold", "color": "#f3b32b"}}>
-  {`100+`}
+  {`5+`}
 </Text>
-  {` aplicaciones creadas`}
+  {` proyectos creados`}
 </Box>
   <Spacer/>
   <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
@@ -101,7 +101,7 @@ export default function Component() {
 </Flex>
   <Text sx={{"fontSize": "1em", "color": "#C3C7CB"}}>
   {`
-            Hola mi nombre es Cecilia Cardenas soy desarrolladora Full stack Jr Oracle Next Education
+            Hola mi nombre es Cecilia Cardenas soy desarrolladora Full Stack Jr Oracle Next Education
             `}
 </Text>
 </VStack>
@@ -185,78 +185,18 @@ export default function Component() {
 </Button>
 </Link>
   <Heading sx={{"width": "100%", "paddingTop": "1em", "fontSize": "1.5em", "color": "#F1F2F4", "fontFamily": "Poppins", "fontWeight": "500"}}>
-  {`Recursos y más`}
+  {`Recursos`}
 </Heading>
-  <Link as={NextLink} href={`https://mouredev.com/libro-git`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
+  <Link as={NextLink} href={`https://github.com/cecilia11119`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
   <HStack sx={{"width": "100%"}}>
-  <Image alt={`Git y GitHub desde cero`} src={`icons/git.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`GitHub`} src={`icons/git.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Git y GitHub desde cero`}
+  {`GitHub`}
 </Text>
   <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Aquí puedes comprar mi libro en formato físico y eBook`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://amazon.es/shop/mouredev/list/2ZIHJJFJ9AVZ3`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <Image alt={`Libros recomendados`} src={`icons/book.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Libros recomendados`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Mi listado de libros sobre programación, ciencia y tecnología`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://mouredev.com/setup`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <Image alt={`Mi setup`} src={`icons/setup.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Mi setup`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Listado con todos los elementos que uso en mi trabajo`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://mouredev.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <Image alt={`MoureDev`} src={`icons/logo.png`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`MoureDev`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Mi sitio web`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`https://buymeacoffee.com/mouredev`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <Image alt={`Invítame a un café`} src={`icons/coffee.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`Invítame a un café`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`¿Quieres ayudarme a que siga creando contenido?`}
+  {`Aquí puedes encontrar mis proyectos`}
 </Text>
 </VStack>
 </HStack>
@@ -265,22 +205,7 @@ export default function Component() {
   <Heading sx={{"width": "100%", "paddingTop": "1em", "fontSize": "1.5em", "color": "#F1F2F4", "fontFamily": "Poppins", "fontWeight": "500"}}>
   {`Contacto`}
 </Heading>
-  <Link as={NextLink} href={`https://mypublicinbox.com/mouredev`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
-  <HStack sx={{"width": "100%"}}>
-  <Image alt={`MyPublicInbox`} src={`icons/checkemail.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
-  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
-  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
-  {`MyPublicInbox`}
-</Text>
-  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`Respuesta rápida y con preferencia`}
-</Text>
-</VStack>
-</HStack>
-</Button>
-</Link>
-  <Link as={NextLink} href={`mailto:braismoure@mouredev.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
+  <Link as={NextLink} href={`mailto:cecilia11119@gmail.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
   <HStack sx={{"width": "100%"}}>
   <Image alt={`Email`} src={`icons/email.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
@@ -289,42 +214,26 @@ export default function Component() {
   {`Email`}
 </Text>
   <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`braismoure@mouredev.com`}
+  {`cecilia11119@gmail.com`}
 </Text>
 </VStack>
 </HStack>
 </Button>
 </Link>
 </VStack>
-  <VStack alignItems={`start`} spacing={`0.8em`} sx={{"width": "100%"}}>
-  <Heading sx={{"width": "100%", "paddingTop": "1em", "fontSize": "1.5em", "color": "#F1F2F4", "fontFamily": "Poppins", "fontWeight": "500"}}>
-  {`Colaboran`}
-</Heading>
-  <SimpleGrid columns={[1, 2]} spacing={`2em`}>
-  <Link as={NextLink} href={`https://e.lga.to/MoureDev`} isExternal={true} sx={{"textDecoration": "none", "Hover": {}}}>
-  <Image alt={`Logotipo de Elgato`} src={`elgato.png`} sx={{"height": "4em", "aspectRatio": "5 / 2"}}/>
-</Link>
-  <Link as={NextLink} href={`https://mvp.microsoft.com/es-es/PublicProfile/5004970`} isExternal={true} sx={{"textDecoration": "none", "Hover": {}}}>
-  <Image alt={`Logotipo de Microsoft MVP`} src={`mvp.png`} sx={{"height": "4em", "aspectRatio": "5 / 2"}}/>
-</Link>
-</SimpleGrid>
-</VStack>
 </VStack>
 </Center>
   <VStack spacing={`1em`} sx={{"marginBottom": "2em", "paddingBottom": "2em", "paddingX": "2em", "color": "#A3ABB2"}}>
-  <Image alt={`Logotipo de MoureDev. Una "eme" entre llaves.`} src={`logo.png`} sx={{"height": "4em", "width": "4em"}}/>
+  <Image alt={`Logotipo de MoureDev. Una "eme" entre llaves.`} src={`logoflor.png`} sx={{"height": "4em", "width": "4em"}}/>
   <Link as={NextLink} href={`https://mouredev.com`} isExternal={true} sx={{"fontSize": "0.8em", "textDecoration": "none", "Hover": {}}}>
   <Box>
   {`© 2014-2023 `}
   <Text as={`span`} sx={{"color": "#f3b32b"}}>
   {`Pagina Python Reflex by Cecilia Cardenas`}
 </Text>
-  {` v3.`}
 </Box>
 </Link>
-  <Text sx={{"fontSize": "0.8em", "marginTop": "0px !important"}}>
-  {`BUILDING SOFTWARE WITH ♥ FROM GALICIA TO THE WORLD.`}
-</Text>
+  <Text sx={{"fontSize": "0.8em", "marginTop": "0px !important"}}/>
 </VStack>
 </Box>
   <NextHead>
