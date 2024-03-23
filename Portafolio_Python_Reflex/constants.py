@@ -14,6 +14,7 @@ JAVASCRIPT_URL= "https://cecilia11119.github.io/Juego-del-ahorcado-challenge-/"
 JAVA_URL= "https://www.youtube.com/watch?v=2deMkkfP6Sk"
 HTMLCSS_URL= "https://cecilia11119.github.io/E-commerce/"
 VISUAL_STUDIO_URL= "https://www.youtube.com/watch?v=QQ0gjBYPqrI"
+REACT_URL="https://ventas-react.vercel.app/"
 
 TWITCH_URL = "https://twitch.tv/mouredev"
 YOUTUBE_URL = "https://youtube.com/@mouredev"

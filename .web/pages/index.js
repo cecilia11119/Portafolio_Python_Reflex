@@ -80,7 +80,7 @@ export default function Component() {
   <Flex sx={{"width": "100%"}}>
   <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   <Text as={`span`} sx={{"fontWeight": "bold", "color": "#f3b32b"}}>
-  {`1+`}
+  {`2+`}
 </Text>
   {` años de experiencia`}
 </Box>
@@ -94,9 +94,9 @@ export default function Component() {
   <Spacer/>
   <Box sx={{"fontSize": "0.8em", "color": "#C3C7CB"}}>
   <Text as={`span`} sx={{"fontWeight": "bold", "color": "#f3b32b"}}>
-  {`1M+`}
+  {`5+`}
 </Text>
-  {` seguidores`}
+  {` skills`}
 </Box>
 </Flex>
   <Text sx={{"fontSize": "1em", "color": "#C3C7CB"}}>
@@ -139,6 +139,21 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
+  <Link as={NextLink} href={`https://ventas-react.vercel.app/`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <Image alt={`React`} src={`icons/react.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
+  <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
+  {`React`}
+</Text>
+  <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
+  {`Formulario de productos y categorias`}
+</Text>
+</VStack>
+</HStack>
+</Button>
+</Link>
   <Link as={NextLink} href={`https://www.youtube.com/watch?v=2deMkkfP6Sk`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
   <HStack sx={{"width": "100%"}}>
@@ -148,7 +163,7 @@ export default function Component() {
   {`Java`}
 </Text>
   <Text sx={{"fontWeight": "300", "fontSize": "0.8em", "color": "#C3C7CB"}}>
-  {`El chat y los grupos de estudio de la comunidad`}
+  {`Reservas con java y mysql - listas de reservas y huéspedes.`}
 </Text>
 </VStack>
 </HStack>
@@ -172,7 +187,7 @@ export default function Component() {
   <Link as={NextLink} href={`https://www.youtube.com/watch?v=QQ0gjBYPqrI`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "Hover": {}}}>
   <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#F1F2F4", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "Hover": {"backgroundColor": "#8b5f00"}}}>
   <HStack sx={{"width": "100%"}}>
-  <Image alt={`Visual Basic`} src={`icons/desktop.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
+  <Image alt={`Visual Basic`} src={`icons/visualStudio.svg`} sx={{"width": "1.5em", "height": "1.5em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`} spacing={`0.5em`} sx={{"paddingY": "0.5em", "paddingRight": "0.5em"}}>
   <Text sx={{"fontFamily": "Poppins", "fontWeight": "500", "fontSize": "1em", "color": "#F1F2F4"}}>
   {`Visual Basic`}
@@ -224,10 +239,10 @@ export default function Component() {
 </VStack>
 </Center>
   <VStack spacing={`1em`} sx={{"marginBottom": "2em", "paddingBottom": "2em", "paddingX": "2em", "color": "#A3ABB2"}}>
-  <Image alt={`Logotipo de MoureDev. Una "eme" entre llaves.`} src={`logoflor.png`} sx={{"height": "4em", "width": "4em"}}/>
+  <Image alt={`Logotipo de Cecilia Cardenas.`} src={`logoflor.png`} sx={{"height": "4em", "width": "4em"}}/>
   <Link as={NextLink} href={`https://mouredev.com`} isExternal={true} sx={{"fontSize": "0.8em", "textDecoration": "none", "Hover": {}}}>
   <Box>
-  {`© 2014-2023 `}
+  {`© 2014-2024 `}
   <Text as={`span`} sx={{"color": "#f3b32b"}}>
   {`Pagina Python Reflex by Cecilia Cardenas`}
 </Text>

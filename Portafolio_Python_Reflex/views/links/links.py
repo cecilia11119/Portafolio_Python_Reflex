@@ -20,12 +20,21 @@ def links() -> rx.Component:
             "icons/js.svg",
             const.JAVASCRIPT_URL
         ),
+
+         link_button(
+            "React",
+            "Formulario de productos y categorias",
+            "icons/react.svg",
+            const.REACT_URL
+        ),
+
         link_button(
             "Java",
-            "El chat y los grupos de estudio de la comunidad",
+            "Reservas con java y mysql - listas de reservas y huéspedes.",
             "icons/java.svg",
             const.JAVA_URL
         ),
+      
         link_button(
             "Html",
             "E-commerce con Html 5 y Css 3",
@@ -35,9 +44,11 @@ def links() -> rx.Component:
         link_button(
             "Visual Basic",
             "Sistema creado en Visual Studio con vb y Sql",
-            "icons/desktop.svg",
+            "icons/visualStudio.svg",
             const.VISUAL_STUDIO_URL
         ),
+
+        
 
         title("Recursos"),
         link_button(

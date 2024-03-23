@@ -11,7 +11,7 @@ def footer() -> rx.Component:
             src="logoflor.png",
             height=Size.VERY_BIG.value,
             width=Size.VERY_BIG.value,
-            alt="Logotipo de MoureDev. Una \"eme\" entre llaves."
+            alt="Logotipo de Cecilia Cardenas."
         ),
         rx.link(
             rx.box(
